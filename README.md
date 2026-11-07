@@ -103,3 +103,13 @@ Para este caso:
 El programa también será probado con otros valores, incluyendo datos inválidos y valores repetidos.
 
 ---
+"Programa en Java, por consola, que controla las cargas de material reciclable de una jornada. Está hecho en una sola clase (CentroReciclaje) y guarda los pesos en un arreglo.
+El programa pide la cantidad de cargas (entre 3 y 20) y luego el peso de cada una (entre 5 y 200 kg). Si un dato es inválido, muestra un mensaje y lo pide otra vez. Al final 
+muestra el listado numerado, las cargas livianas (5 a 80 kg) y pesadas (más de 80 kg), el total, el promedio, el mayor peso, las cargas sobre el promedio y la primera carga con 
+el mayor peso.
+El main solo coordina y cada función hace una sola tarea: validar, cargar, sumar, contar, promediar y buscar. Los límites del enunciado son constantes, así que no hay valores 
+mágicos, y no se usaron colecciones, Stream ni variables globales.
+Con 5 cargas (40, 100, 60, 150, 50) da 3 livianas, 2 pesadas, total 400, promedio 80, mayor 150, 2 sobre el promedio y la carga 4 como primera con el mayor."
+
+
+
